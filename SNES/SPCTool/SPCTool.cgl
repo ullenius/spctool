@@ -1,0 +1,12 @@
+Error 00047. 0x140200 (Thread 0x1618):
+Pointer arithmetic underrun: 0x0052C07A-32, that is at offset 0-32 in block
+ 0x0052C07A(=SPCTool.exe:0x02:01E07A) (size 32768).
+Call Tree:
+   0x0040CA60(=SPCTool.exe:0x01:00BA60) E:\snes\SNES\SPCTool\Main.cpp#443
+   0x004914BB(=SPCTool.exe:0x01:0904BB) Forms.pas#2595
+   0x00491137(=SPCTool.exe:0x01:090137) Forms.pas#2523
+   0x0050C6E3(=SPCTool.exe:0x01:10B6E3)
+   0x0049A257(=SPCTool.exe:0x01:099257) Forms.pas#6770
+   0x00401F56(=SPCTool.exe:0x01:000F56) E:\snes\SNES\SPCTool\SPCTool.cpp#241
+
+------------------------------------------

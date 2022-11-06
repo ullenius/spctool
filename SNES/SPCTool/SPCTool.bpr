@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="SPCTool.exe"/>
+    <OBJFILES value="SPCTool.obj ..\..\A2Math.obj ..\..\A2Nihon.obj ..\..\A2RIFF.obj 
+      ..\..\A2Str.obj ..\ID666.obj ..\SWC.obj WaveOut.obj Main.obj About.obj 
+      Config.obj DSPEdit.obj Debug.obj MIDI.obj Map.obj Progress.obj ROM.obj 
+      Rename.obj SSI.obj Tag.obj WAV.obj Profile.obj Assembly.obj"/>
+    <RESFILES value="SPCTool.res OpenDialog.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm About.dfm Config.dfm DSPEdit.dfm Debug.dfm MIDI.dfm 
+      Map.dfm Progress.dfm ROM.dfm Rename.dfm SSI.dfm Tag.dfm WAV.dfm Profile.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi"/>
+    <PATHCPP value=".;..\..;.."/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="SPCTool.cpp"/>
+    <INCLUDEPATH value="..\;..;E:\Borland\CBuilder5\Projects;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;&quot;E:\Microsoft SDK\include&quot;"/>
+    <LIBPATH value="..\;..;E:\Borland\CBuilder5\Projects;..\..;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-csu"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\. -I.. -IE:\Borland\CBuilder5\Projects -I..\.. -I..\SNESAPU 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I&quot;E:\Microsoft SDK\include&quot; 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=e:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -RT- -X- -r- 
+      -a8 -5 -b- -d -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$I- -$C- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /m2 /kh32768 /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -w -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="SPCTool.cpp" FORMNAME="" UNITNAME="SPCTool" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SPCTool.res" FORMNAME="" UNITNAME="SPCTool" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\A2Math.c" FORMNAME="" UNITNAME="A2Math" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\A2Nihon.c" FORMNAME="" UNITNAME="A2Nihon" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\A2RIFF.cpp" FORMNAME="" UNITNAME="A2RIFF" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\A2Str.c" FORMNAME="" UNITNAME="A2Str" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\ID666.cpp" FORMNAME="" UNITNAME="ID666" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SWC.cpp" FORMNAME="" UNITNAME="SWC" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WaveOut.cpp" FORMNAME="" UNITNAME="WaveOut" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="FrmMain" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="FrmAbout" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Config.cpp" FORMNAME="FrmConfig" UNITNAME="Config" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DSPEdit.cpp" FORMNAME="FrmDSP" UNITNAME="DSPEdit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Debug.cpp" FORMNAME="FrmDebug" UNITNAME="Debug" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MIDI.cpp" FORMNAME="FrmMIDI" UNITNAME="MIDI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Map.cpp" FORMNAME="FrmMap" UNITNAME="Map" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Progress.cpp" FORMNAME="FrmProg" UNITNAME="Progress" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ROM.cpp" FORMNAME="FrmROM" UNITNAME="ROM" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Rename.cpp" FORMNAME="FrmRen" UNITNAME="Rename" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SSI.cpp" FORMNAME="FrmSSI" UNITNAME="SSI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tag.cpp" FORMNAME="FrmTag" UNITNAME="Tag" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WAV.cpp" FORMNAME="FrmWav" UNITNAME="WAV" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Buttons.h" FORMNAME="" UNITNAME="Buttons" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ROMCode.h" FORMNAME="" UNITNAME="ROMCode" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OpenDialog.rc" FORMNAME="" UNITNAME="OpenDialog" CONTAINERID="RCCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Profile.cpp" FORMNAME="FrmProf" UNITNAME="Profile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Assembly.cpp" FORMNAME="" UNITNAME="Assembly" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=70
+Release=0
+Build=52
+Debug=0
+PreRelease=1
+Special=0
+Private=1
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Alpha-II Productions http://www.alpha-ii.com
+FileDescription=SPC player, editor, and debugger
+FileVersion=0.70.0.52
+InternalName=
+LegalCopyright=Copyright ?2003 Alpha-II Productions
+LegalTrademarks=
+OriginalFilename=SPCTool.exe
+ProductName=SPCTool
+ProductVersion=0.7
+Comments=Requires SNESAPU.DLL
+PrivateBuild=
+
+[HistoryLists\hlIncludePath]
+Count=19
+Item0=..\;..;E:\Borland\CBuilder5\Projects;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;E:\Microsoft SDK\include
+Item1=..\;..;E:\Borland\CBuilder5\Projects\;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;E:\Microsoft SDK\include\
+Item2=..\;E:\Borland\CBuilder5\Projects\;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;E:\Microsoft SDK\include\
+Item3=E:\Borland\CBuilder5\Projects;..\;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;E:\Microsoft SDK\include\
+Item4=..\;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl;E:\Microsoft SDK\include\
+Item5=..\;..;..\..;..\SNESAPU;E:\Microsoft SDK\include\;$(BCB)\include;$(BCB)\include\vcl
+Item6=..;..\..;..\SNESAPU;E:\Microsoft SDK\include;$(BCB)\include;$(BCB)\include\vcl
+Item7=..\;..;..\..\Sound;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item8=..;..\..\Sound;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item9=..\;..\..\Sound;..;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item10=..\..\Sound;..\;..;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item11=..\;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item12=E:\Program Files\Borland\CBuilder5\Projects;..\..\Components\Alpha-II;..\;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item13=..\;..;..\..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item14=..\;..\..;..;..\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item15=..\..;D:\Source;D:\Source\SNES;D:\Source\SNES\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item16=..\..;Source;Source\SNES;Source\SNES\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item17=\Source;\Source\SNES;\Source\SNES\SNESAPU;$(BCB)\include;$(BCB)\include\vcl
+Item18=..\..;K:\Program Files\Borland\CBuilder5\Projects;E:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=16
+Item0=..\;..;E:\Borland\CBuilder5\Projects;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\;..;E:\Borland\CBuilder5\Projects\;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\;E:\Borland\CBuilder5\Projects\;..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item3=E:\Borland\CBuilder5\Projects;..\;..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\;..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\;..;..\..\Sound;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item7=..;..\..\Sound;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\;..\..\Sound;..;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item9=..\..\Sound;..\;..;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item10=..\;E:\Program Files\Borland\CBuilder5\Projects\;..\..\Components\Alpha-II;..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item11=E:\Program Files\Borland\CBuilder5\Projects;..\..\Components\Alpha-II;..\;..;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item12=..\;..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item13=..\..;$(BCB)\lib\obj;$(BCB)\lib
+Item14=$(BCB)\lib\obj;$(BCB)\lib
+Item15=..\..;K:\Program Files\Borland\CBuilder5\Projects;E:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=D:\Source\SNES\SPCTool
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
